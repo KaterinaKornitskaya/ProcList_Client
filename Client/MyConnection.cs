@@ -16,6 +16,7 @@ namespace Client
     internal class MyConnection
     {
         public TcpClient client= new TcpClient(IPAddress.Loopback.ToString(), 49154);
+        
         // метод Соединится с сервером
         public async void ConnWithServer()
         {
